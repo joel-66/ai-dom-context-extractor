@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: sans-serif; padding: 15px; background-color: #f0f2f5; color: #1a1a1a; }
+        h1, h2 { font-size: 16px; margin-top: 0; border-bottom: 1px solid #ccc; padding-bottom: 8px; }
+        h2 { margin-top: 20px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input { width: 100%; padding: 8px; box-sizing: border-box; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        button { background-color: #007bff; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; font-weight: bold; width: 100%; box-sizing: border-box; margin-top: 10px; }
+        button:hover { background-color: #0056b3; }
+        #strip-button { background-color: #28a745; }
+        #strip-button:hover { background-color: #218838; }
+        #visualize-button { background-color: #6f42c1; }
+        #visualize-button:hover { background-color: #5a32a3; }
+        #clear-visuals-button { background-color: #6c757d; }
+        #clear-visuals-button:hover { background-color: #5a6268; }
+        .button-group { display: flex; gap: 10px; }
+        #status-message { margin-top: 15px; font-style: italic; color: #555; }
+    </style>
+</head>
+<body>
+    <h1>AI Context Extractor</h1>
+    <h2>Element Inspector Tools</h2>
+    <label for="selector-input">Target Selector(s):</label>
+    <input type="text" id="selector-input" placeholder="e.g., #masthead, .product">
+    <button id="go-button">Copy Element CSS & HTML</button>
+    <h2>Visualization Tools</h2>
+    <div class="button-group">
+        <button id="visualize-button">Visualize Selected</button>
+        <button id="clear-visuals-button">Clear Visuals</button>
+    </div>
+    <h2>Full Page Tools</h2>
+    <button id="strip-button">Copy Stripped HTML</button>
+    <p id="status-message">Ready to assist.</p>
+    <script src="panel.js"></script>
+</body>
+</html>
