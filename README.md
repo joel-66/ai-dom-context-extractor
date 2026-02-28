@@ -64,15 +64,6 @@ When you need the "big picture" without the 5MB of junk that comes with modern w
 
 ---
 
-## 💻 Technical Stack
-
-- **Logic:** Vanilla JavaScript (ES6+)
-- **API:** Chrome Extensions API (Manifest V3)
-- **Integration:** Chrome DevTools API
-- **Styling:** CSS3 with a focus on DevTools UI consistency
-
----
-
 ## ✍️ Author
 
 **Jonathan Kenney**  
